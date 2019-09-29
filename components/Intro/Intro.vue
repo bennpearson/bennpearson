@@ -1,6 +1,6 @@
 <template>
   <div class="bp-intro">
-    <h2 class="bp-intro__desc">{{ desc }}</h2>
+    <div class="bp-intro__desc" v-html="desc" />
   </div>
 </template>
 
@@ -15,6 +15,6 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 @import './_intro.scss';
 </style>

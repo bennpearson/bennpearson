@@ -1,5 +1,21 @@
 @import '../_variables';
 
+.bp-clients {
+  margin: 100px 0 0 0;
+}
+@media (min-width: 768px) {
+  .bp-clients {
+    margin: 200px 0 0 0;
+  }
+}
+.bp-clients__title {
+  @include font-mobile-text-h-2;
+}
+@media (min-width: 768px) {
+  .bp-clients__title {
+    @include font-desktop-text-h-2;
+  }
+}
 .bp-clients__list {
   display: flex;
   list-style-type: none;
@@ -7,6 +23,7 @@
   justify-content: flex-start;
   align-items: center;
   padding: 0;
+  margin-top: 50px;
 }
 .bp-clients__list-item {
   margin-right: 50px;

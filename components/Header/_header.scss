@@ -1,5 +1,15 @@
 @import '../_variables';
 
-h1 {
- @include font-desktop-text-h-1;
+.bp-header {
+    margin-bottom: 50px;
+}
+
+.bp-header__title {
+ @include font-mobile-text-h-1;
+}
+
+@media (min-width: 768px) {
+  .bp-header__title  {
+    @include font-desktop-text-h-1;
+  }
 }

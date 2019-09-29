@@ -7,7 +7,7 @@
           <Intro :desc="desc" />
         </section>
         <section class="bp-section">
-          <Button>Contact me</Button>
+          <Button>Contact</Button>
         </section>
         <section class="bp-section">
           <Clients />
@@ -33,9 +33,9 @@ export default {
   data() {
     return {
       title: 'Benn Pearson is a contract design engineer.',
-      desc: `He has expertise in design systems, frontend, interface design, prototyping, interaction and inclusive design.
-              Currently contracting as an Frontend Developer  within the financial technology sector.
-              Previously contracted as a Product Designer for the BBC & Interaction Designer for Government.`
+      desc: `<p>He has expertise in <strong>design systems</strong>, <strong>frontend</strong>, <strong>interface design</strong>, <strong>prototyping</strong>, <strong>interaction</strong> and <strong>inclusive design</strong>.</p>
+              <p>Currently contracting as an <strong>Frontend Developer</strong> within the financial technology sector.</p>
+              <p>Previously contracted as a <strong>Product Designer</strong> for the BBC & <strong>Interaction Designer</strong> for Government.</p>`
     }
   }
 }
@@ -45,7 +45,14 @@ export default {
 html {
   background-color: black;
   color: white;
-  padding: 50px;
+  padding: 40px;
+}
+body,
+input {
+  font-family: 'public_sans', 'Helvetica Neue', Arial, sans-serif;
+}
+strong {
+  font-weight: bold;
 }
 @media (min-width: 768px) {
   html {
@@ -53,12 +60,21 @@ html {
   }
 }
 .container {
-  max-width: 768px;
+  max-width: 760px;
 }
-.bp-header {
-  margin-bottom: 100px;
+@font-face {
+  font-family: 'public_sans';
+  src: url('../assets/fonts/publicsans-bold-webfont.woff2') format('woff2');
+  font-weight: bold;
 }
-.bp-section {
-  margin-bottom: 100px;
+@font-face {
+  font-family: 'public_sans';
+  src: url('../assets/fonts/publicsans-regular-webfont.woff2') format('woff2');
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'public_sans';
+  src: url('../assets/fonts/publicsans-thin-webfont.woff2') format('woff2');
+  font-weight: 100;
 }
 </style>

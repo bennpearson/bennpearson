@@ -1,78 +1,16 @@
 @import '../_variables';
 
-// .bp-button {
-//   outline: none;
-//   border: none;
-//   display: inline-flex;
-//   align-items: center;
-//   justify-content: center;
-//   padding: 10px 40px;
-//   border-radius: 0;
-//   cursor: pointer;
-//   user-select: none;
-//   transition: background-color 0.2s, color 0.2s, width 0.2s, box-shadow 0.2s cubic-bezier(0.2, 0.91, 0.85, 0.96) 0s;
-// }
-
-.bp-button__text {
-  @include font-desktop-text-btn;
-  padding: 10px 20px;
+.bp-button {
+  display: inline-block;
+  background-color: #ffffff;
+  @include font-mobile-text-btn;
+  text-decoration: none;
+  padding: 15px 30px;
 }
 
-// ..bp-button__text {
-//   letter-spacing: 1.08px;
-//   line-height: 20px;
-//   font-size: 14px;
-//   font-weight: bold;
-// }
-
-// .bp-button__with-icon {
-//   padding: 10px 13px;
-// }
-
-// .bp-button__icon {
-//   height: 25px;
-//   margin-left: 50px;
-// }
-
-// .bp-button:active {
-//   border: 1px solid rgba(72, 107, 255, 0.2);
-//   box-shadow: 0 0 36px 0 rgba(0, 0, 0, 0.2);
-
-//   &:not(.bp-button__disabled) {
-//     padding: 9px 39px;
-
-//     &.bp-button__with-icon {
-//       padding: 9px 12px;
-//     }
-//   }
-// }
-
-// .bp-button:hover {
-//   background-color: #cccccc;
-//   box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
-
-//   &:active {
-//     background-color: #ffffff;
-//   }
-// }
-
-// .bp-button {
-//   background-color: #ffffff;
-//   color: #000000;
-
-//   path {
-//     fill: #000000;
-//   }
-// }
-
-// .bp-button__disabled {
-//   cursor: not-allowed;
-//   background-color: #eeeeee !important;
-//   color: #bbbbbb;
-//   box-shadow: none !important;
-//   border: none !important;
-
-//   path {
-//     fill: #bbbbbb;
-//   }
-// }
+@media (min-width: 768px) {
+  .bp-button {
+    @include font-desktop-text-btn;
+    padding: 15px 50px;
+  }
+}

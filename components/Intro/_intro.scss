@@ -1,5 +1,13 @@
 @import '../_variables';
 
-.bp-intro__desc {
-  @include font-desktop-text-body;
+.bp-intro {
+    margin-bottom: 50px;
+}
+.bp-intro__desc p {
+  @include font-mobile-text-body;
+}
+@media (min-width: 768px) {
+  .bp-intro__desc p {
+    @include font-desktop-text-body;
+  } 
 }

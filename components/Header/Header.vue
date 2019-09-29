@@ -1,6 +1,6 @@
 <template>
   <header class="bp-header">
-    <h1 class="bp-header__title --font-desktop-text-h-1">{{ title }}</h1>
+    <h1 class="bp-header__title ">{{ title }}</h1>
   </header>
 </template>
 
