@@ -1,0 +1,5 @@
+@import '../_variables';
+
+h1 {
+ @include font-desktop-text-h-1;
+}

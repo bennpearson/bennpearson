@@ -1,0 +1,5 @@
+@import '../_variables';
+
+.bp-intro__desc {
+  @include font-desktop-text-body;
+}

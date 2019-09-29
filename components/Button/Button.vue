@@ -1,16 +1,16 @@
 <template>
   <button
     :class="[
-      'c-button',
-      { 'c-button__disabled': disabled },
-      { 'c-button__with-icon': icon !== 'none' }
+      'bp-button',
+      { 'bp-button__disabled': disabled },
+      { 'bp-button__with-icon': icon !== 'none' }
     ]"
     @click="!disabled && onClick()"
   >
-    <div class="c-button__content">
+    <div class="bp-button__text">
       <slot></slot>
     </div>
-    <div v-if="icon !== 'none'" class="c-button__icon">
+    <div v-if="icon !== 'none'" class="bp-button__icon">
       <chevron-right v-if="icon === 'chevron-right'" />
     </div>
   </button>

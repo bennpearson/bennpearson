@@ -3,10 +3,16 @@
     <div>
       <Header :title="title" />
       <main>
-        <Intro :desc="desc" />
-        <Button>Contact me</Button>
+        <section class="bp-section">
+          <Intro :desc="desc" />
+        </section>
+        <section class="bp-section">
+          <Button>Contact me</Button>
+        </section>
+        <section class="bp-section">
+          <Clients />
+        </section>
       </main>
-      <Clients />
     </div>
   </div>
 </template>
@@ -45,5 +51,14 @@ html {
   html {
     padding: 100px;
   }
+}
+.container {
+  max-width: 768px;
+}
+.bp-header {
+  margin-bottom: 100px;
+}
+.bp-section {
+  margin-bottom: 100px;
 }
 </style>

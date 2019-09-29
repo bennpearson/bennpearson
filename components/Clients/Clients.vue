@@ -1,42 +1,45 @@
 <template>
-  <ul class="bp-clients">
-    <li class="bp-clients__logo">
-      <LogoGov class="bp-clients__svg" />
-    </li>
-    <li class="bp-clients__logo">
-      <LogoBbc class="bp-clients__svg" />
-    </li>
-    <li class="bp-clients__logo">
-      <LogoWarnerbrothers class="bp-clients__svg" />
-    </li>
-    <li class="bp-clients__logo">
-      <LogoChannel4 class="bp-clients__svg" />
-    </li>
-    <li class="bp-clients__logo">
-      <LogoRnib class="bp-clients__svg" />
-    </li>
-    <li class="bp-clients__logo">
-      <LogoNetmag class="bp-clients__svg" />
-    </li>
-    <li class="bp-clients__logo">
-      <LogoFivesimplesteps class="bp-clients__svg" />
-    </li>
-    <li class="bp-clients__logo">
-      <LogoGocogroup class="bp-clients__svg" />
-    </li>
-    <li class="bp-clients__logo">
-      <LogoMsm class="bp-clients__svg" />
-    </li>
-    <li class="bp-clients__logo">
-      <LogoDonmar class="bp-clients__svg" />
-    </li>
-    <li class="bp-clients__logo">
-      <LogoVisitwales class="bp-clients__svg" />
-    </li>
-    <li class="bp-clients__logo">
-      <LogoArriva class="bp-clients__svg" />
-    </li>
-  </ul>
+  <div class="bp-clients">
+    <h2 class="bp-clients__title">Previous clients</h2>
+    <ul class="bp-clients__list">
+      <li class="bp-clients__list-item">
+        <LogoGov class="bp-clients__svg" />
+      </li>
+      <li class="bp-clients__list-item">
+        <LogoBbc class="bp-clients__svg" />
+      </li>
+      <li class="bp-clients__list-item">
+        <LogoWarnerbrothers class="bp-clients__svg" />
+      </li>
+      <li class="bp-clients__list-item">
+        <LogoChannel4 class="bp-clients__svg" />
+      </li>
+      <li class="bp-clients__list-item">
+        <LogoRnib class="bp-clients__svg" />
+      </li>
+      <li class="bp-clients__list-item">
+        <LogoNetmag class="bp-clients__svg" />
+      </li>
+      <li class="bp-clients__list-item">
+        <LogoFivesimplesteps class="bp-clients__svg" />
+      </li>
+      <li class="bp-clients__list-item">
+        <LogoGocogroup class="bp-clients__svg" />
+      </li>
+      <li class="bp-clients__list-item">
+        <LogoMsm class="bp-clients__svg" />
+      </li>
+      <li class="bp-clients__list-item">
+        <LogoDonmar class="bp-clients__svg" />
+      </li>
+      <li class="bp-clients__list-item">
+        <LogoVisitwales class="bp-clients__svg" />
+      </li>
+      <li class="bp-clients__list-item">
+        <LogoArriva class="bp-clients__svg" />
+      </li>
+    </ul>
+  </div>
 </template>
 
 <script>
@@ -71,28 +74,6 @@ export default {
 }
 </script>
 
-<style lang="scss">
-.bp-clients {
-  display: flex;
-  list-style-type: none;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: center;
-  padding: 0;
-  max-width: 768px;
-}
-.bp-clients__logo {
-  margin-right: 50px;
-  margin-bottom: 50px;
-  width: 70px;
-}
-@media (min-width: 768px) {
-  .bp-clients__logo {
-    width: 100px;
-  }
-}
-.bp-clients__svg {
-  width: 100%;
-  height: 100%;
-}
+<style lang="scss" scoped>
+@import './clients.scss';
 </style>
