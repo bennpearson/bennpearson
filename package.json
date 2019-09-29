@@ -1,0 +1,48 @@
+{
+  "name": "www",
+  "version": "1.0.0",
+  "description": "My stunning Nuxt.js project",
+  "author": "bennpearson",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "test": "jest",
+    "dsm-storybook:publish": "dsm-storybook publish",
+    "dsm-storybook:preview": "dsm-storybook preview"
+  },
+  "dependencies": {
+    "@invisionapp/dsm-storybook": "0.0.100",
+    "@storybook/addon-options": "^5.2.1",
+    "@storybook/addons": "^5.2.1",
+    "nuxt": "^2.0.0",
+    "nuxt-svg-loader": "^1.0.1",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@nuxtjs/eslint-config": "^1.0.1",
+    "@nuxtjs/eslint-module": "^1.0.0",
+    "@storybook/vue": "^5.2.1",
+    "@vue/test-utils": "^1.0.0-beta.27",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.1.0",
+    "babel-loader": "^8.0.6",
+    "babel-preset-vue": "^2.0.2",
+    "eslint": "^6.1.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-nuxt": ">=0.4.2",
+    "eslint-plugin-prettier": "^3.0.1",
+    "jest": "^24.1.0",
+    "node-sass": "^4.12.0",
+    "prettier": "^1.16.4",
+    "sass-loader": "^8.0.0",
+    "vue-jest": "^4.0.0-0",
+    "vue-loader": "^15.7.1",
+    "vue-svg-loader": "^0.12.0",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
