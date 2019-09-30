@@ -6,6 +6,7 @@
 
 .bp-header__title {
  @include font-mobile-text-h-1;
+ letter-spacing: -1px;
 }
 
 @media (min-width: 768px) {
