@@ -32,10 +32,10 @@ export default {
   },
   data() {
     return {
-      title: 'Benn Pearson is a contract design engineer.',
-      desc: `<p>He has expertise in <strong>design systems</strong>, <strong>interface design</strong>, <strong>prototyping</strong>, <strong>interaction</strong> and <strong>inclusive design</strong>.</p>
-              <p>Currently contracting as an <strong>Frontend Developer</strong> within the financial technology sector.</p>
-              <p>Previously contracted as a <strong>Product Designer</strong> for the BBC & <strong>Interaction Designer</strong> for Government.</p>`
+      title: 'Benn Pearson contract design engineer.',
+      desc: `<p>Expertise in <strong>design systems</strong>, <strong>interface design</strong>, <strong>prototyping</strong>, <strong>interaction</strong> and <strong>inclusive design</strong>.</p>
+              <p>Currently contracting as a <strong>Frontend Developer</strong> within the financial technology sector.</p>
+              <p>Previously contracted as a <strong>Product Designer</strong> for the BBC and <strong>Interaction Designer</strong> for Government.</p>`
     }
   }
 }
@@ -45,7 +45,12 @@ export default {
 html {
   background-color: black;
   color: white;
-  padding: 40px;
+  padding: 30px;
+}
+@media (min-width: 768px) {
+  html {
+    padding: 100px;
+  }
 }
 body,
 input {
@@ -53,11 +58,6 @@ input {
 }
 strong {
   font-weight: bold;
-}
-@media (min-width: 768px) {
-  html {
-    padding: 100px;
-  }
 }
 .container {
   max-width: 470px;

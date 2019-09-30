@@ -15,6 +15,9 @@
         <LogoChannel4 class="bp-clients__svg" />
       </li>
       <li class="bp-clients__list-item">
+        <LogoGocogroup class="bp-clients__svg" />
+      </li>
+      <li class="bp-clients__list-item">
         <LogoRnib class="bp-clients__svg" />
       </li>
       <li class="bp-clients__list-item">
@@ -22,9 +25,6 @@
       </li>
       <li class="bp-clients__list-item">
         <LogoFivesimplesteps class="bp-clients__svg" />
-      </li>
-      <li class="bp-clients__list-item">
-        <LogoGocogroup class="bp-clients__svg" />
       </li>
       <li class="bp-clients__list-item">
         <LogoMsm class="bp-clients__svg" />
