@@ -33,7 +33,7 @@ export default {
   data() {
     return {
       title: 'Benn Pearson is a contract design engineer.',
-      desc: `<p>He has expertise in <strong>design systems</strong>, <strong>frontend</strong>, <strong>interface design</strong>, <strong>prototyping</strong>, <strong>interaction</strong> and <strong>inclusive design</strong>.</p>
+      desc: `<p>He has expertise in <strong>design systems</strong>, <strong>interface design</strong>, <strong>prototyping</strong>, <strong>interaction</strong> and <strong>inclusive design</strong>.</p>
               <p>Currently contracting as an <strong>Frontend Developer</strong> within the financial technology sector.</p>
               <p>Previously contracted as a <strong>Product Designer</strong> for the BBC & <strong>Interaction Designer</strong> for Government.</p>`
     }
@@ -49,7 +49,7 @@ html {
 }
 body,
 input {
-  font-family: 'public_sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Public Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 strong {
   font-weight: bold;
@@ -60,20 +60,25 @@ strong {
   }
 }
 .container {
-  max-width: 760px;
+  max-width: 470px;
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 760px;
+  }
 }
 @font-face {
-  font-family: 'public_sans';
+  font-family: 'Public Sans';
   src: url('../assets/fonts/publicsans-bold-webfont.woff2') format('woff2');
   font-weight: bold;
 }
 @font-face {
-  font-family: 'public_sans';
+  font-family: 'Public Sans';
   src: url('../assets/fonts/publicsans-regular-webfont.woff2') format('woff2');
   font-weight: normal;
 }
 @font-face {
-  font-family: 'public_sans';
+  font-family: 'Public Sans';
   src: url('../assets/fonts/publicsans-thin-webfont.woff2') format('woff2');
   font-weight: 100;
 }
