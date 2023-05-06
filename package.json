@@ -18,7 +18,7 @@
     "@invisionapp/dsm-storybook": "0.0.100",
     "@storybook/addon-options": "^5.2.1",
     "@storybook/addons": "^5.2.1",
-    "nuxt": "^2.0.0",
+    "nuxt": "^2.16.3",
     "nuxt-svg-loader": "^1.0.1",
     "vue": "^2.6.10"
   },
